@@ -15,20 +15,26 @@ Takım 22
 - İsmail Vişne: Developer
 
 ## Ürün İsmi
-
+Project 22
 
 ## Ürün Açıklaması
-
+Project 22 oyunu, hurdalığa atılan bir robotun zorlu engelleri aşarak yeni eklentiler bulmasını ve bu eklentileri de kullanarak oyun sonuna ulaşmasını konu alıyor.
 
 ## Ürün Özellikleri
+Platformer
+Bulmaca
+2D
 
 
 ## Hedef Kitle
+15-30 yaş arası
+Steam kullanıcıları
+Platformer oyuncuları
 
 
 ## Product Backlog URL
 
-
+https://trello.com/b/nUTgbLJN/project-management-22
 ---
 
 # Sprint 1
