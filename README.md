@@ -48,7 +48,7 @@ https://trello.com/b/nUTgbLJN/project-management-22
 - **Backlog düzeni ve Story seçimleri**: 
 
 - **Daily Scrum**: 
-![Scrum1](https://user-images.githubusercontent.com/71822456/167259858-aa74f523-31c5-44b0-9b16-d08f3616296f.png)
+
 
 - **Sprint board update**: Sprint board screenshotları: 
 
