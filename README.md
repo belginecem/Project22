@@ -39,7 +39,7 @@ https://trello.com/b/nUTgbLJN/project-management-22
 
 # Sprint 1
 
-- **Sprint Notları**: 
+- **Sprint Notları**: Level Design tamamlandı, Character Controller script bitmek üzere. Mekanik scriptleri ve level'lar Unity'ye geçirilmeye hazır.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 
 
