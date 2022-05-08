@@ -48,9 +48,13 @@ https://trello.com/b/nUTgbLJN/project-management-22
 - **Backlog düzeni ve Story seçimleri**: 
 
 - **Daily Scrum**: 
+![51](https://user-images.githubusercontent.com/71822456/167312634-3bf14735-2ab3-4901-b451-3011e803ae00.png)
+![6111](https://user-images.githubusercontent.com/71822456/167312635-c886f236-f342-4541-93e6-d1bc8988858f.png)
 
 
 - **Sprint board update**: Sprint board screenshotları: 
+![Sprint](https://user-images.githubusercontent.com/71822456/167312569-6f6d2ea8-6900-44b8-b008-dff7746bdb3b.png)
+![Sprint2](https://user-images.githubusercontent.com/71822456/167312571-aed5112c-751a-4ce8-a742-b396fe7fd5e2.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
@@ -61,6 +65,8 @@ https://trello.com/b/nUTgbLJN/project-management-22
 - **Sprint Review**: 
 Oyunun mekanikleri, oynanışı ve hikayesi belirlendi, temel hareketlerin kodları hazırlandı ve belirli mekanikler için neler yapabileceğimize bakıyoruz. 
 - **Sprint Retrospective:**
+Toplantı sıklığını arttırmalıyız.
+Şuana kadar hazırladığımız kodları Unity'de test etmeye başlamalıyız.
 
 -**Diğer Notlar**:
 - N/A
