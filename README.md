@@ -33,17 +33,17 @@ Platformer oyuncuları
 
 
 ## Product Backlog URL
-
-https://trello.com/b/nUTgbLJN/project-management-22
+[Project Backlog Team 22](https://docs.google.com/spreadsheets/d/1ElGPz5JrItuky3BX1yoL-tL9WN4vckvtfbUq02HS-aU/edit?usp=sharing)
+[Trello Board] (https://trello.com/b/nUTgbLJN/project-management-22)
 ---
 
 # Sprint 1
 
 - **Sprint Notları**: Level Design tamamlandı, Character Controller script bitmek üzere. Mekanik scriptleri ve level'lar Unity'ye geçirilmeye hazır.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
 
-- **Puan tamamlama mantığı**: Proje boyunca tamamlayabileceğimiz max puan 80(Jüri tarafından puanlanacak) ve 20 (Academy Club Ekibi tarafından doldurulacak) olarak toplamda 100 puandır.
+- **Puan tamamlama mantığı**: İlk Sprintte 100 puan, ikinci sprintte 150 puan ve üçüncü sprintte 130 puan olmak üzere toplamda 380 puana ulaşılması hedefleniyor.
 
 - **Backlog düzeni ve Story seçimleri**: 
 
