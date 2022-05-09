@@ -33,8 +33,9 @@ Platformer oyuncuları
 
 
 ## Product Backlog URL
-[Project Backlog Team 22](https://docs.google.com/spreadsheets/d/1ElGPz5JrItuky3BX1yoL-tL9WN4vckvtfbUq02HS-aU/edit?usp=sharing)
-[Trello Board] (https://trello.com/b/nUTgbLJN/project-management-22)
+- [Project Backlog Team 22](https://docs.google.com/spreadsheets/d/1ElGPz5JrItuky3BX1yoL-tL9WN4vckvtfbUq02HS-aU/edit?usp=sharing)
+- [Trello Board] (https://trello.com/b/nUTgbLJN/project-management-22)
+
 ---
 
 # Sprint 1
