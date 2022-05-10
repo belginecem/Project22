@@ -75,6 +75,13 @@ Toplantı sıklığını arttırmalıyız.
 ---
 
 # Sprint 2
+- **Daily Scrum**:
+- 10/05/2022: ! [10_05_2022](https://user-images.githubusercontent.com/79521088/167712002-16c56d80-9dcb-4a32-8cee-11eb300d889a.png)
+- Ali, Miro Level Design Unity Projesine geçirildi.
+- Ecem, Character Controller üstündeki geliştirmeler devam ediyor.
+- İsmail, GitHub repo informationlar eklendi, Mekanikler için script logic araştırıldı.
+- Hakkı, Magnetic mekaniği ve oil slide scriptleri üstündeki geliştirmeler devam ediyor.
+- Zeynep, art design çalışmaları devam ediyor.
 
 
 ---
