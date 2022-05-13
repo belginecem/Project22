@@ -83,7 +83,13 @@ Toplantı sıklığını arttırmalıyız.
 - Hakkı, Magnetic mekaniği ve oil slide scriptleri üstündeki geliştirmeler devam ediyor.
 - Zeynep, art design çalışmaları devam ediyor.
 
-
+-11/05/2022: ![11_05_2022(1)](https://user-images.githubusercontent.com/79521088/168294560-fe5f8761-71db-4f29-9a58-689b1c7d72c0.png)
+              ![11_05_2022](https://user-images.githubusercontent.com/79521088/168294573-dc4f93f8-7ebd-4928-ad63-0936595af87b.png)
+- Ali, Death Respawn Checkpoint script araştırmaları.
+- Ecem, Character Controller problemleri çözülmeye çalışılıyor.
+- İsmail, Character Controller problemleri çözülmeye çalışılıyor.
+- Hakkı, yürüyen palet scripti üstünde çalışıyor.
+- Zeynep, art design çalışmaları devam ediyor.
 ---
 
 # Sprint 3
