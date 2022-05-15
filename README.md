@@ -90,6 +90,16 @@ Toplantı sıklığını arttırmalıyız.
 - İsmail, Character Controller problemleri çözülmeye çalışılıyor.
 - Hakkı, yürüyen palet scripti üstünde çalışıyor.
 - Zeynep, art design çalışmaları devam ediyor.
+
+- 15_05_2022 ![15_05_2022](https://user-images.githubusercontent.com/79521088/168491182-fc10250b-374b-4d8e-adb2-51d582542d73.png)
+
+-Ali, Death Respawn Checkpoint script üstünde çalışıyor.
+-Ecem, Character controller tamamlanmak üzere.
+-İsmail, Vinç scripti araştırmaları.
+-Hakkı, Magnetic mekanik base scripti tamamlandı.
+-Zeynep, art design çalışmaları devam ediyor.
+
+
 ---
 
 # Sprint 3
