@@ -99,6 +99,11 @@ Toplantı sıklığını arttırmalıyız.
 -Hakkı, Magnetic mekanik base scripti tamamlandı.
 -Zeynep, art design çalışmaları devam ediyor.
 
+-22_05-2022 ![22_05_2022](https://user-images.githubusercontent.com/79521088/169713442-8d324201-eac0-45a3-8f95-4fe70bcba906.png)
+-Ali, Checkpoint Death/Respawn scriptleri üstünde çalışıyor.
+-Ecem, Character controllerın son rötüşlarını yapıyor.
+-İsmail, Asset araştırmaları.
+-Hakkı, kapı ve magnet scriptlerini hazırladı.
 
 ---
 
