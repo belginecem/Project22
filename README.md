@@ -77,6 +77,10 @@ Toplantı sıklığını arttırmalıyız.
 ---
 
 # Sprint 2
+- **Sprint Notları**: Level Design Unity'de. Character Controller tamamlandı. Manyetik mekaniği tamamlandı. Hareketli Platform ve manyetik kutuların materyalleri hazır. 
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 150 puan
+
 - **Daily Scrum**:
 - 10/05/2022: ! [10_05_2022](https://user-images.githubusercontent.com/79521088/167712002-16c56d80-9dcb-4a32-8cee-11eb300d889a.png)
 - Ali, Miro Level Design Unity Projesine geçirildi.
@@ -106,6 +110,17 @@ Toplantı sıklığını arttırmalıyız.
 -Ecem, Character controllerın son rötüşlarını yapıyor.
 -İsmail, Asset araştırmaları.
 -Hakkı, kapı ve magnet scriptlerini hazırladı.
+
+- **Ürün Durumu**: Ekran görüntüleri:
+- ![unknown (1)](https://user-images.githubusercontent.com/79521088/170132166-be3d9f3b-743f-400c-89f0-892ac7ba972a.png)
+  ![unknown (2)](https://user-images.githubusercontent.com/79521088/170132182-07aa056d-fff9-4776-856f-8126207796dd.png)
+  ![unknown (3)](https://user-images.githubusercontent.com/79521088/170132191-fc249aad-dbb8-4f0c-add4-f9840502981e.png)
+
+
+- **Sprint Review**: 
+Bir grup üyesi kaybına göre oldukça verimli geçti. Sprint 3 de upload ve push pull hızımız artmalı.
+- **Sprint Retrospective:**
+Art designer gruptan ayrıldığı için hazır asset kullanılması gerekiyor. Bu nedenle 3. Sprint beklenen yoğunluğun bile biraz üstünde olabilir.
 
 ---
 
