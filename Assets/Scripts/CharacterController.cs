@@ -34,7 +34,7 @@ public class CharacterController : MonoBehaviour
 
         if(jumpValue > 0)
         {
-            rb.sharedMaterial = bounceMat;
+            rb.sharedMaterial = bounceMat; 
         }
         else
         {
@@ -43,7 +43,7 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey("space") && isGrounded && canJump)
         {
-            jumpValue += 0.075f;
+            jumpValue += 0.075f; //jump value increase
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }
 
@@ -52,15 +52,15 @@ public class CharacterController : MonoBehaviour
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }*/
 
-        if(jumpValue >= 18f && isGrounded)
+        if(jumpValue >= 18f && isGrounded) //after 18f it jumpes otomatically
         {
-            float tempx = moveInput * walkSpeed;
+            float tempx = moveInput * walkSpeed; //the arc on x direction
             float tempy = jumpValue;
             rb.velocity = new Vector2(tempx, tempy);
             Invoke("ResetJump", 0.2f);
         }
 
-        if (Input.GetKeyUp("space"))
+        if (Input.GetKeyUp("space")) //jumps on release
         {
             if (isGrounded)
             {
