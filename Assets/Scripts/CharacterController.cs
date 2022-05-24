@@ -43,7 +43,7 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey("space") && isGrounded && canJump)
         {
-            jumpValue += 0.075f; //jump value increase
+            jumpValue += 0.035f; //jump value increase
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }
 
@@ -52,7 +52,7 @@ public class CharacterController : MonoBehaviour
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }*/
 
-        if(jumpValue >= 18f && isGrounded) //after 18f it jumpes otomatically
+        if(jumpValue >= 14f && isGrounded) //after 18f it jumpes otomatically
         {
             float tempx = moveInput * walkSpeed; //the arc on x direction
             float tempy = jumpValue;
