@@ -56,6 +56,9 @@
      <Compile Include="Assets\Tilemap\Free Pixel Art Hills\Demo\MoveBackground.cs" />
      <Compile Include="Assets\Scripts\CharacterController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\MagneticObject.cs" />
+     <Compile Include="Assets\Scripts\FerromagneticObject.cs" />
+     <Compile Include="Assets\Scripts\MagnetController.cs" />
      <None Include="Assets\Tilemap\Free Pixel Art Hills\contact.txt" />
      <None Include="Assets\Tilemap\Free Pixel Art Hills\Lisense.txt" />
      <None Include="Assets\Tilemap\Free Pixel Art Hills\readme.txt" />
