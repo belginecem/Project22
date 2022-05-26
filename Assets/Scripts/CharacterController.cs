@@ -13,6 +13,7 @@ public class CharacterController : MonoBehaviour
     private Vector2 _respawnPoint;
 
     public PhysicsMaterial2D bounceMat, normalMat;
+    public Animator animator;
 
     public bool canJump = true;
     public float jumpValue = 0.0f;
@@ -33,6 +34,22 @@ public class CharacterController : MonoBehaviour
         if(jumpValue == 0.0f && isGrounded)
         {
             rb.velocity = new Vector2(moveInput * walkSpeed, rb.velocity.y);
+            
+            //walking animation
+            animator.SetFloat("Speed", Mathf.Abs(moveInput));
+            
+            //walking animation turn rotation
+            if (rb.velocity.x > 0.0f)
+            {
+                transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+            }
+
+            else if (rb.velocity.x < 0.0f)
+            {
+                transform.localScale = new Vector3(-0.3f, 0.3f, 0.3f);
+            }
+            
+
         }
 
 
@@ -64,6 +81,7 @@ public class CharacterController : MonoBehaviour
             float tempy = jumpValue;
             rb.velocity = new Vector2(tempx, tempy);
             Invoke("ResetJump", 0.2f);
+
         }
 
         if (Input.GetKeyUp("space")) //jumps on release
@@ -74,11 +92,11 @@ public class CharacterController : MonoBehaviour
                 jumpValue = 0.0f;
             }
             canJump = true;
+
         }
 
     }
-
-
+    
 
 
     void ResetJump()
