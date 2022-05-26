@@ -1,0 +1,8 @@
+1: PERMITTED
+1.1 You may use any resources found in this download in any number of commercial or personal projects for yourself or client.
+1.2 You may modify any resources as needed and include them into your projects including games, websites, applications, printed works, and others;
+1.3 You may sell and distribute games with these assets.
+No attribution or link back is required, however any reference will be highly appreciated.
+
+2 FORBIDDEN
+2.1 You can NOT resell the art source files (PNG, JPG, EPS, Adobe Illustrator, etc) or slightly modified version of the art. You can not redistribute the art or modified version of the art in a manner that would make some or all of the art files useable to another end user via the app. For example, an app that uses the art as part of the play of the game is fine. An app that allows the user to save or export a modified version of the artwork itself is not fine.

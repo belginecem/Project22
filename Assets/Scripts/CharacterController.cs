@@ -58,7 +58,7 @@ public class CharacterController : MonoBehaviour
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }*/
 
-        if(jumpValue >= 14f && isGrounded) //after 18f it jumpes otomatically
+        if(jumpValue >= 14f && isGrounded) //after 14f it jumpes otomatically
         {
             float tempx = moveInput * walkSpeed; //the arc on x direction
             float tempy = jumpValue;
@@ -95,7 +95,7 @@ public class CharacterController : MonoBehaviour
 
     //private void MiniJump()
     //{
-    //   rb.velocity = new Vector2(rb.velocity.x, jumpValue/2);
+    //   rb.velocity = new Vector2(rb.velocity.x, jumpValue - 6f);
     //}
 
     public void SetRespawnPoint(Vector2 position)
