@@ -10,11 +10,10 @@ Takım 22
 
 ## Takım Elemanları
 
-- Zeynep Yavuz: Product Owner
-- Ali Bizsel: Scrum Master
-- Hakkı Ayman: Developer
-- Ecemnur Belgin: Developer
-- İsmail Vişne: Developer
+- Ali Bizsel: Scrum Master / Co-Product Owner
+- Hakkı Ayman: Developer / Co-Product Owner
+- Ecemnur Belgin: Developer / Co-Product Owner
+- İsmail Vişne: Developer / Co-Product Owner
 
 ## Ürün İsmi
 Project 22
@@ -126,4 +125,10 @@ Art designer gruptan ayrıldığı için hazır asset kullanılması gerekiyor. 
 
 # Sprint 3
 
+- **Daily Scrum**:
+- 29_05_2022 ![29_05_2022](https://user-images.githubusercontent.com/79521088/170895083-41b85005-abe5-42a0-9752-fc384374514d.png)
+-Ali, Prefab üretimleri yapıldı. Animationlar eklendi.
+-Ecem, bugfix, controller geliştirildi. Upgrade pick up kodu hazır pushlanmaya.
+-İsmail, UI üzerinde çalışıyor.
+-Hakkı, magnetic karakter upgrade'i ilave edildi. Kapıların kodları pushlanmaya hazır.
 ---
