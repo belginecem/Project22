@@ -75,7 +75,7 @@ public class CharacterController : MonoBehaviour
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }*/
 
-        if(jumpValue >= 14f && isGrounded) //after 14f it jumpes otomatically
+        if(jumpValue >= 20f && isGrounded) //after 20f it jumpes otomatically
         {
             float tempx = moveInput * walkSpeed; //the arc on x direction
             float tempy = jumpValue;
