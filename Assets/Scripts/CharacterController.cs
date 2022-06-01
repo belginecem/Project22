@@ -68,12 +68,10 @@ public class CharacterController : MonoBehaviour
         {
             jumpValue += 0.16f; //jump value increase
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
+            animator.Play("player_jump");
         }
 
-        /*if(Input.GetKeyDown("space") && isGrounded && canJump)
-        {
-            rb.velocity = new Vector2(0.0f, rb.velocity.y);
-        }*/
+        
 
         if(jumpValue >= 20 && isGrounded) //after 20 it jumpes otomatically
         {
@@ -81,6 +79,7 @@ public class CharacterController : MonoBehaviour
             float tempy = jumpValue;
             rb.velocity = new Vector2(tempx, tempy);
             Invoke("ResetJump", 0.2f);
+            animator.Play("player_jump");
 
         }
 
@@ -90,6 +89,7 @@ public class CharacterController : MonoBehaviour
             {
                 rb.velocity = new Vector2(moveInput * walkSpeed, jumpValue);
                 jumpValue = 0.0f;
+                animator.Play("player_jump2");
             }
             canJump = true;
 
@@ -135,5 +135,14 @@ public class CharacterController : MonoBehaviour
         _active = true;
         _collider.enabled = true;
         //MiniJump();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Collectible"))
+        {
+            Destroy(other.gameObject);
+            GetComponent<CharacterMagnet>().enabled = true; //enables the magnetic feature after upgrade
+        }
     }
 }
