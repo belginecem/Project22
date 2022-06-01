@@ -3,18 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Water
-  - Collectible
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
-  - Background
-  - Platform
+  - 
+  - 
   - 
   - 
   - 
@@ -42,16 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 1185801541
-    locked: 0
-  - name: TileBackground
-    uniqueID: 3782258331
-    locked: 0
-  - name: Ground
-    uniqueID: 462347459
-    locked: 0
-  - name: Foreground
-    uniqueID: 1824472237
     locked: 0
