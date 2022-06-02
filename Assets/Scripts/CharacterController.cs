@@ -7,6 +7,7 @@ public class CharacterController : MonoBehaviour
     public float walkSpeed;
     private float moveInput;
     public bool isGrounded;
+    public bool isJumping;
     private Rigidbody2D rb;
     public LayerMask groundMask;
     private Collider2D _collider;
@@ -31,11 +32,12 @@ public class CharacterController : MonoBehaviour
     {
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        if(jumpValue == 0.0f && isGrounded)
+
+        if (jumpValue == 0.0f && isGrounded)
         {
             rb.velocity = new Vector2(moveInput * walkSpeed, rb.velocity.y);
-            
-            //walking animation
+
+             //walking animation
             animator.SetFloat("Speed", Mathf.Abs(moveInput));
             
             //walking animation turn rotation
@@ -66,8 +68,9 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey("space") && isGrounded && canJump)
         {
-            jumpValue += 0.16f; //jump value increase
+            jumpValue += 0.066f; //jump value increase
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
+            animator.SetBool("isJumping", true);
             animator.Play("player_jump");
         }
 
@@ -79,6 +82,7 @@ public class CharacterController : MonoBehaviour
             float tempy = jumpValue;
             rb.velocity = new Vector2(tempx, tempy);
             Invoke("ResetJump", 0.2f);
+            animator.SetBool("isJumping", true);
             animator.Play("player_jump");
 
         }
@@ -89,20 +93,23 @@ public class CharacterController : MonoBehaviour
             {
                 rb.velocity = new Vector2(moveInput * walkSpeed, jumpValue);
                 jumpValue = 0.0f;
-                animator.Play("player_jump2");
+                animator.SetBool("isJumping", true);
+                animator.Play("player_jump");
             }
             canJump = true;
 
         }
 
     }
-    
 
+   
+    
 
     void ResetJump()
     {
         canJump = false;
         jumpValue = 0;
+        
     }
 
     private void OnDrawGizmosSelected()
