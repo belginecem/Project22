@@ -124,6 +124,9 @@ Art designer gruptan ayrıldığı için hazır asset kullanılması gerekiyor. 
 ---
 
 # Sprint 3
+- **Sprint Notları**: Magnetic mekaniklerin kalibrasyonu yapıldı. Tüm animasyonlar ve sesler assetlere eklendi. Ürün ilk demo alınımına hazır. 
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 130 puan / Ulaşıldı*
 
 - **Daily Scrum**:
 - 29_05_2022 ![29_05_2022](https://user-images.githubusercontent.com/79521088/170895083-41b85005-abe5-42a0-9752-fc384374514d.png)
@@ -132,10 +135,32 @@ Art designer gruptan ayrıldığı için hazır asset kullanılması gerekiyor. 
 -İsmail, UI üzerinde çalışıyor.
 -Hakkı, magnetic karakter upgrade'i ilave edildi. Kapıların kodları pushlanmaya hazır.
 
--01_06_2022 ![01_06_2022](https://user-images.githubusercontent.com/79521088/171499309-66711cc0-1fde-46b6-8f32-4fcd62b0fb7d.png)
+- 01_06_2022 ![01_06_2022](https://user-images.githubusercontent.com/79521088/171499309-66711cc0-1fde-46b6-8f32-4fcd62b0fb7d.png)
 -Ali, Sound Assetler bulundu eklenmeye hazır.
 -Ecem, Jump animation ve animator üstünde çalışıldı.
 -İsmail, UI pushlanmaya hazır.
 -Hakkı, Kapı scriptleri eklendi.
+
+-05_06_2022 ![05_06_2022](https://user-images.githubusercontent.com/79521088/172068739-1f6e1a27-d490-4a6c-909f-d6cd0a20c51e.png)
+-Ali, Sound Assetler eklendi.
+-Ecem, Animation state machine de gerekli düzenlemeler ve triggerlar eklendi.
+-İsmail, UI pushlandı, süslemeler eklenecek.
+-Hakkı, magnetic particle effect üstünde çalışılacak.
+
+- **Ürün Durumu**: Ekran görüntüleri:![game1](https://user-images.githubusercontent.com/79521088/172071971-b270a275-d89a-446c-9210-bcd489eebe81.png)
+![game2](https://user-images.githubusercontent.com/79521088/172071976-f5a1647d-2086-4d4e-b82a-b34bba34bc99.png)
+![game3](https://user-images.githubusercontent.com/79521088/172071979-25941ac6-f213-4802-bb80-3a3eef6e5694.png)
+![game4](https://user-images.githubusercontent.com/79521088/172071982-78dde7bb-de96-47fa-a742-6977279403df.png)
+![game5](https://user-images.githubusercontent.com/79521088/172071983-6fc85e2d-2920-42c9-8768-940e5b1fb7dd.png)
+
+
+- **Sprint Review**: 
+En etkili sprintlerden biri oldu. Ürün, ufak pürüzlerin temizliğinden sonra built alınımına hazır. 08_06_2022' de ürünün video tanıtım çekimi için demo built alınımına hazırlanılıyor. Ancak sıçramada collidera yakın olunca gerçekleşen "Super Jump" çözümü bulunamadı. 
+
+- **Sprint Retrospective:**
+Ekip bir kişi eksik çalışmasına rağmen sprintler ve  ulaşılması gereken puan listesine ulaştı. Bir kaç planlanan özellikten vazgeçilse ve ürünü "süslemeye" beklenen kadar zaman tamponu yaratılamamış olmasına rağmen oldukça başarılı bir sprint daha geçirildi.
+
+
 ---
+
 
