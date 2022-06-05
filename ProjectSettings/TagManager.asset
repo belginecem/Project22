@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Water
   - Collectible
+  - UI
+  - TheEnd
   layers:
   - Default
   - TransparentFX

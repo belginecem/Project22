@@ -151,5 +151,28 @@ public class CharacterController : MonoBehaviour
             Destroy(other.gameObject);
             GetComponent<CharacterMagnet>().enabled = true; //enables the magnetic feature after upgrade
         }
+        if (other.gameObject.CompareTag("UI"))
+        {
+            var a = other.gameObject.transform.GetChild(0).gameObject;
+            a.SetActive(true);
+        }
+        if (other.gameObject.CompareTag("TheEnd"))
+        {
+            var a = other.gameObject.transform.GetChild(0).gameObject;
+            a.SetActive(true);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("UI"))
+        {
+            var a = other.gameObject.transform.GetChild(0).gameObject;
+            a.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("TheEnd"))
+        {
+            var a = other.gameObject.transform.GetChild(0).gameObject;
+            a.SetActive(false);
+        }
     }
 }
