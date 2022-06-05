@@ -124,9 +124,9 @@ Art designer gruptan ayrıldığı için hazır asset kullanılması gerekiyor. 
 ---
 
 # Sprint 3
-- **Sprint Notları**:
-- 
-- - **Sprint içinde tamamlanması tahmin edilen puan**: 130 puan / Ulaşıldı*
+- **Sprint Notları**: Magnetic mekaniklerin kalibrasyonu yapıldı. Tüm animasyonlar ve sesler assetlere eklendi. Ürün ilk demo alınımına hazır. 
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 130 puan / Ulaşıldı*
 
 - **Daily Scrum**:
 - 29_05_2022 ![29_05_2022](https://user-images.githubusercontent.com/79521088/170895083-41b85005-abe5-42a0-9752-fc384374514d.png)
@@ -155,7 +155,7 @@ Art designer gruptan ayrıldığı için hazır asset kullanılması gerekiyor. 
 
 
 - **Sprint Review**: 
-En etkili sprintlerden biri oldu. Ürün, ufak pürüzlerin temizliğinden sonra built alınımına hazır. 08_06_2022' de ürünün video tanıtım çekimi için demo built alınımına hazırlanılıyor. 
+En etkili sprintlerden biri oldu. Ürün, ufak pürüzlerin temizliğinden sonra built alınımına hazır. 08_06_2022' de ürünün video tanıtım çekimi için demo built alınımına hazırlanılıyor. Ancak sıçramada collidera yakın olunca gerçekleşen "Super Jump" çözümü bulunamadı. 
 
 - **Sprint Retrospective:**
 Ekip bir kişi eksik çalışmasına rağmen sprintler ve  ulaşılması gereken puan listesine ulaştı. Bir kaç planlanan özellikten vazgeçilse ve ürünü "süslemeye" beklenen kadar zaman tamponu yaratılamamış olmasına rağmen oldukça başarılı bir sprint daha geçirildi.
