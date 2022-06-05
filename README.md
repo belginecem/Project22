@@ -124,6 +124,9 @@ Art designer gruptan ayrıldığı için hazır asset kullanılması gerekiyor. 
 ---
 
 # Sprint 3
+- **Sprint Notları**:
+- 
+- - **Sprint içinde tamamlanması tahmin edilen puan**: 130 puan / Ulaşıldı*
 
 - **Daily Scrum**:
 - 29_05_2022 ![29_05_2022](https://user-images.githubusercontent.com/79521088/170895083-41b85005-abe5-42a0-9752-fc384374514d.png)
@@ -143,6 +146,19 @@ Art designer gruptan ayrıldığı için hazır asset kullanılması gerekiyor. 
 -Ecem, Animation state machine de gerekli düzenlemeler ve triggerlar eklendi.
 -İsmail, UI pushlandı, süslemeler eklenecek.
 -Hakkı, magnetic particle effect üstünde çalışılacak.
+
+- **Ürün Durumu**: Ekran görüntüleri:![game1](https://user-images.githubusercontent.com/79521088/172071971-b270a275-d89a-446c-9210-bcd489eebe81.png)
+![game2](https://user-images.githubusercontent.com/79521088/172071976-f5a1647d-2086-4d4e-b82a-b34bba34bc99.png)
+![game3](https://user-images.githubusercontent.com/79521088/172071979-25941ac6-f213-4802-bb80-3a3eef6e5694.png)
+![game4](https://user-images.githubusercontent.com/79521088/172071982-78dde7bb-de96-47fa-a742-6977279403df.png)
+![game5](https://user-images.githubusercontent.com/79521088/172071983-6fc85e2d-2920-42c9-8768-940e5b1fb7dd.png)
+
+
+- **Sprint Review**: 
+En etkili sprintlerden biri oldu. Ürün, ufak pürüzlerin temizliğinden sonra built alınımına hazır. 08_06_2022' de ürünün video tanıtım çekimi için demo built alınımına hazırlanılıyor. 
+
+- **Sprint Retrospective:**
+Ekip bir kişi eksik çalışmasına rağmen sprintler ve  ulaşılması gereken puan listesine ulaştı. Bir kaç planlanan özellikten vazgeçilse ve ürünü "süslemeye" beklenen kadar zaman tamponu yaratılamamış olmasına rağmen oldukça başarılı bir sprint daha geçirildi.
 
 
 ---
