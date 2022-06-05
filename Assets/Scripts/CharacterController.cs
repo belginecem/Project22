@@ -12,6 +12,7 @@ public class CharacterController : MonoBehaviour
     public LayerMask groundMask;
     private Collider2D _collider;
     private Vector2 _respawnPoint;
+    public SpriteRenderer _sprenderer;
 
     public PhysicsMaterial2D bounceMat, normalMat;
     public Animator animator;
@@ -26,6 +27,7 @@ public class CharacterController : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         _collider = rb.GetComponent<Collider2D>();
         SetRespawnPoint(transform.position);
+        _sprenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -37,18 +39,17 @@ public class CharacterController : MonoBehaviour
         {
             rb.velocity = new Vector2(moveInput * walkSpeed, rb.velocity.y);
 
-             //walking animation
+            //walking animation
             animator.SetFloat("Speed", Mathf.Abs(moveInput));
             
             //walking animation turn rotation
-            if (rb.velocity.x > 0.0f)
+            if (Input.GetAxis("Horizontal") > 0.01f)
             {
-                transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+                _sprenderer.flipX = true;
             }
-
-            else if (rb.velocity.x < 0.0f)
+            else if (Input.GetAxis("Horizontal") < -0.01f)
             {
-                transform.localScale = new Vector3(-0.3f, 0.3f, 0.3f);
+                _sprenderer.flipX = false;
             }
             
 
@@ -68,7 +69,7 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey("space") && isGrounded && canJump)
         {
-            jumpValue += 0.066f; //jump value increase
+            jumpValue += 0.040f; //jump value increase
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
             animator.SetBool("isJumping", true);
             animator.Play("player_jump");
@@ -131,6 +132,7 @@ public class CharacterController : MonoBehaviour
     {
         _active = false;
         _collider.enabled = false;
+        FindObjectOfType<AudioManager>().Play("Death");
         //MiniJump();
         StartCoroutine(Respawn());
     }
@@ -150,6 +152,7 @@ public class CharacterController : MonoBehaviour
         {
             Destroy(other.gameObject);
             GetComponent<CharacterMagnet>().enabled = true; //enables the magnetic feature after upgrade
+            FindObjectOfType<AudioManager>().Play("PowerUp");
         }
         if (other.gameObject.CompareTag("UI"))
         {
