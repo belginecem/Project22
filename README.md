@@ -132,10 +132,19 @@ Art designer gruptan ayrıldığı için hazır asset kullanılması gerekiyor. 
 -İsmail, UI üzerinde çalışıyor.
 -Hakkı, magnetic karakter upgrade'i ilave edildi. Kapıların kodları pushlanmaya hazır.
 
--01_06_2022 ![01_06_2022](https://user-images.githubusercontent.com/79521088/171499309-66711cc0-1fde-46b6-8f32-4fcd62b0fb7d.png)
+- 01_06_2022 ![01_06_2022](https://user-images.githubusercontent.com/79521088/171499309-66711cc0-1fde-46b6-8f32-4fcd62b0fb7d.png)
 -Ali, Sound Assetler bulundu eklenmeye hazır.
 -Ecem, Jump animation ve animator üstünde çalışıldı.
 -İsmail, UI pushlanmaya hazır.
 -Hakkı, Kapı scriptleri eklendi.
+
+-05_06_2022 ![05_06_2022](https://user-images.githubusercontent.com/79521088/172068739-1f6e1a27-d490-4a6c-909f-d6cd0a20c51e.png)
+-Ali, Sound Assetler eklendi.
+-Ecem, Animation state machine de gerekli düzenlemeler ve triggerlar eklendi.
+-İsmail, UI pushlandı, süslemeler eklenecek.
+-Hakkı, magnetic particle effect üstünde çalışılacak.
+
+
 ---
+
 
