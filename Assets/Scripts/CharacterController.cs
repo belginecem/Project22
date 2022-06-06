@@ -17,6 +17,10 @@ public class CharacterController : MonoBehaviour
     public PhysicsMaterial2D bounceMat, normalMat;
     public Animator animator;
 
+    private bool jump; //for animation
+    private bool grounded = true; //for animation
+    private bool onAir = false;
+
     public bool canJump = true;
     public float jumpValue = 0.0f;
 
@@ -69,10 +73,14 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey("space") && isGrounded && canJump)
         {
-            jumpValue += 0.040f; //jump value increase
+            jumpValue += 0.060f; //jump value increase
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
-            animator.SetBool("isJumping", true);
-            animator.Play("player_jump");
+            //animator.SetBool("isJumping", true);
+            //animator.Play("player_jump");
+            jump = true;
+            grounded = false;
+            animator.SetTrigger("jump");
+            animator.SetBool("grounded", false);
         }
 
         
@@ -83,8 +91,12 @@ public class CharacterController : MonoBehaviour
             float tempy = jumpValue;
             rb.velocity = new Vector2(tempx, tempy);
             Invoke("ResetJump", 0.2f);
-            animator.SetBool("isJumping", true);
-            animator.Play("player_jump");
+            //animator.SetBool("isJumping", true);
+            //animator.Play("player_jump");
+            jump = true;
+            grounded = false;
+            animator.SetTrigger("jump");
+            animator.SetBool("grounded", false);
 
         }
 
@@ -94,8 +106,9 @@ public class CharacterController : MonoBehaviour
             {
                 rb.velocity = new Vector2(moveInput * walkSpeed, jumpValue);
                 jumpValue = 0.0f;
-                animator.SetBool("isJumping", true);
-                animator.Play("player_jump");
+                //animator.SetBool("isJumping", true);
+                //animator.Play("player_jump");
+                animator.SetBool("onAir", true);
             }
             canJump = true;
 
@@ -103,8 +116,20 @@ public class CharacterController : MonoBehaviour
 
     }
 
-   
-    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            animator.SetBool("grounded", true);
+            grounded = true;
+            animator.SetBool("onAir", false);
+        }
+
+
+    }
+
+
+
 
     void ResetJump()
     {
@@ -152,6 +177,7 @@ public class CharacterController : MonoBehaviour
         {
             Destroy(other.gameObject);
             GetComponent<CharacterMagnet>().enabled = true; //enables the magnetic feature after upgrade
+            GetComponent<FerromagneticObject>().enabled = true;
             FindObjectOfType<AudioManager>().Play("PowerUp");
         }
         if (other.gameObject.CompareTag("UI"))

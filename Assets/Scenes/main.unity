@@ -707,7 +707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11482893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.29, y: -1.46, z: 0}
+  m_LocalPosition: {x: 130.89, y: 2.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -733,7 +733,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.0625076
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -2190,7 +2190,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79201213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.64, y: -1.92, z: -10}
+  m_LocalPosition: {x: 136.11, y: 2.9300003, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 656108490}
@@ -10971,7 +10971,7 @@ GameObject:
   - component: {fileID: 340873808}
   m_Layer: 3
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44346,7 +44346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.64, y: -1.92, z: -10}
+  m_LocalPosition: {x: 136.11, y: 2.9300003, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 467772158}
@@ -45741,6 +45741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterMagnet: 
+  FerromagneticObject: 
 --- !u!1001 &558251056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103756,11 +103757,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6385763839168164079, guid: eece6a52c56c211499a087a34d0fd9b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.64
+      value: 136.11
       objectReference: {fileID: 0}
     - target: {fileID: 6385763839168164079, guid: eece6a52c56c211499a087a34d0fd9b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.22
+      value: 3.63
       objectReference: {fileID: 0}
     - target: {fileID: 6385763839168164079, guid: eece6a52c56c211499a087a34d0fd9b8, type: 3}
       propertyPath: m_LocalPosition.z
