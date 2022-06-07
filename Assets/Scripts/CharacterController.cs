@@ -24,6 +24,7 @@ public class CharacterController : MonoBehaviour
     public bool canJump = true;
     public float jumpValue = 0.0f;
 
+
     [SerializeField] private bool _active = true;
 
     void Start()
@@ -71,33 +72,36 @@ public class CharacterController : MonoBehaviour
             rb.sharedMaterial = normalMat;
         }
 
+
         if (Input.GetKey("space") && isGrounded && canJump)
         {
+            
             jumpValue += 0.060f; //jump value increase
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
-            //animator.SetBool("isJumping", true);
-            //animator.Play("player_jump");
-            jump = true;
-            grounded = false;
-            animator.SetTrigger("jump");
-            animator.SetBool("grounded", false);
+            if(jumpValue >= 1.0f)
+            {
+                jump = true;
+                grounded = false;
+                animator.SetTrigger("jump");
+                animator.SetBool("onAir", false);
+                animator.SetBool("grounded", false);
+                animator.SetFloat("Speed", 0.0f);
+            }
+            
         }
 
-        
-
-        if(jumpValue >= 20 && isGrounded) //after 20 it jumpes otomatically
+        if (jumpValue >= 20 && isGrounded) //after 20 it jumpes otomatically
         {
             float tempx = moveInput * walkSpeed; //the arc on x direction
-            float tempy = jumpValue;
+            float tempy = 20.0f;
             rb.velocity = new Vector2(tempx, tempy);
             Invoke("ResetJump", 0.2f);
-            //animator.SetBool("isJumping", true);
-            //animator.Play("player_jump");
             jump = true;
             grounded = false;
-            animator.SetTrigger("jump");
+            //animator.SetTrigger("jump");
             animator.SetBool("grounded", false);
-
+            animator.SetFloat("Speed", 0.0f);
+            animator.SetBool("onAir", true);
         }
 
         if (Input.GetKeyUp("space")) //jumps on release
@@ -106,8 +110,6 @@ public class CharacterController : MonoBehaviour
             {
                 rb.velocity = new Vector2(moveInput * walkSpeed, jumpValue);
                 jumpValue = 0.0f;
-                //animator.SetBool("isJumping", true);
-                //animator.Play("player_jump");
                 animator.SetBool("onAir", true);
             }
             canJump = true;
