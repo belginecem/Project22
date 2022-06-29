@@ -1,5 +1,10 @@
 # Project22
 Google Oyun ve Uygulama Akademisi Unity Takım 22 Bootcamp Projesi
+
+- [Play our game at Unity Play!](https://play.unity.com/mg/other/project-22-2)
+
+- [Project 22 Trailer](https://youtu.be/ifL2j9Jpt8I)
+
 # Project22
 
 # **Takım İsmi**
